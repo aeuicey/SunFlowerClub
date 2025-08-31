@@ -9,9 +9,9 @@
 # Website Info
 info:
   # Site Favicon网站图标
-  favicon: assets/images/Hexo-Theme-MEOW.ico
+  favicon: assets/images/sunflowersite_icon.png                                                                #assets/images/Hexo-Theme-MEOW.ico 原有
   # Site Logo网站标志
-  logo: assets/images/Hexo-Theme-MEOW.png
+  logo: assets/images/sunflowersite_icon.png                                                                   #assets/images/Hexo-Theme-MEOW.png 原有
   # Author Avatar作者头像
   avatar: https://www.alicetec.cn/upload/722371b0-5c55-4be7-b669-270ad916ede8.png
   # Datetime of when this website was built建站时间
@@ -27,7 +27,7 @@ color:
     theme_color: '#88C0ED'
   # Light/Dark Mode Configuration
   mode:
-    default: dark # Default color mode, light or dark 这里默认暗色模式
+    default: light # Default color mode, light or dark 这里默认暗色模式
 
 # Global Configuration
 global:
@@ -36,7 +36,7 @@ global:
     type: uc # Icon Style Type, uc or ta or other custom collection
   selectable: true # Whether users can select text
   # Change page title when page onblur, false or onblur title text
-  onblur_title: "家在等你哦～✧(´▽`ʃ♡ƪ)"
+  onblur_title: "等你哦～✧(´▽`ʃ♡ƪ)"
   mouse_click_style: true # Whether to display colorful heart when clicking
 
 # Font Customization
@@ -51,11 +51,12 @@ font:
 
 # Navigation Bar 顶部菜单
 menu:
-   文章 || uc-article:
+   日志 || uc-article:
      归档: /archives || uc-archive
      分类: /categories || uc-category
      标签: /tags || uc-tag
-   关于俱乐部: /aboutme || uc-about
+   关于俱乐部: /aboutme || uc-sun  #原：uc-about
+   加入我们: /joinus || uc-about   #原：无
 
 # Search Function 搜索功能，依赖插件
 search:
@@ -72,8 +73,8 @@ search:
 banner:
   # Background image of banner under light/dark mode
   image:
-    light: assets/images/wallhaven-5yl597.webp
-    dark: assets/images/wallhaven-e7zogk.webp
+    light: https://jsd-proxy.ygxz.in/gh/aeuicey/Picwent/pic/20250830204328064.webp
+    dark:  https://jsd-proxy.ygxz.in/gh/aeuicey/Picwent/pic/20250830204328065.webp                                                                      
     is_fixed: true # Whether the image is fixed as background or scrollable with banner at homepage, true or false
     position: center top # horizontal(left/center/right) vertical(top/center/bottom)
     repeat: no-repeat # repeat/repeat-x/repeat-y/no-repeat
@@ -128,7 +129,11 @@ sidebar:
         # email: brand-mail || contact@jumao.simplelogin.com
         # github: brand-github || https://github.com/chanwj
   # Show announcement card, false or announcement text, markdown available
-  announcement: 
+  announcement: |
+    Hi～这里是LGD心里俱乐部活动站，本网站正在建设中(^///^)
+    
+    如果您在使用中有遇到问题，欢迎在[Github 仓库](https://bgithub.xyz/SERNTEC/sunflower_Blog_ST)提交Issue
+  # 快速链接栏
   # Links card
   links:
     enable: false # Whether to show additional links
@@ -239,10 +244,10 @@ page_view:
 
 # Footer Customization
 footer:
-  icon: 💗 # Emoji or false
-  author_link: # Url for the link of author
+  icon: 🏆 # Emoji or false
+  author_link: https://www.alicetec.cn # Url for the link of author
   runtime: true # Whether to show website running time
-  statistic: false # Whether to show site statistics(total articles & total wordcount)
+  statistic: true # Whether to show site statistics(total articles & total wordcount)
   # Site register info(e.g. ICP)
   register_info:
     enable: false # Whether to show register info
@@ -316,7 +321,9 @@ cdn:
   # CDN provider
   provider: jsdelivr # jsdelivr, unpkg, npmmirror, custom
   # Custom CDN url, should be formatted. Example: https://cdn.jsdelivr.net/npm/${name}@${version}/${path}
-  custom:
+  custom: https://jsd-proxy.ygxz.in/gh/SERNTEC/sunflower_Blog_ST
 
 # Whether to enable in-built 404 page
 error_page: true
+jnject:
+   bottom: <script defer src="/_vercel/insights/script.js"></script>
