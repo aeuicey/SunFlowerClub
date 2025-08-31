@@ -130,7 +130,7 @@ sidebar:
         # github: brand-github || https://github.com/chanwj
   # Show announcement card, false or announcement text, markdown available
   announcement: |
-    Hi～这里是LGD心里俱乐部活动站，本网站正在建设中(^///^)
+    Hi～这里是LGD心理俱乐部活动站，本网站正在建设中(^///^)
     
     如果您在使用中有遇到问题，欢迎在[Github 仓库](https://bgithub.xyz/SERNTEC/sunflower_Blog_ST)提交Issue
   # 快速链接栏
